@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Калькулятор</title>
+</head>
+<body>
+    <main class="main">
+        <section class="display">
+            <div data-previous-operand class="previous-operand"></div>
+            <div data-current-operand class="current-operand"></div>
+        </section>
+        <section class="keypad">
+            <button type="button" data-clear>C</button>
+            <button type="button" data-backpace>&larr;</button>
+            <button type="button" data-negation>+/-</button>
+            <button type="button" data-sqrt>&radic;x</button>
+            <button type="button" data-operator>^</button>
+
+            <button type="button" data-number>7</button>
+            <button type="button" data-number>8</button>
+            <button type="button" data-number>9</button>
+            <button type="button" data-operator>/</button>
+            <button type="button" data-percent>%</button>
+
+            <button type="button" data-number>4</button>
+            <button type="button" data-number>5</button>
+            <button type="button" data-number>6</button>
+            <button type="button" data-operator>*</button>
+            <button type="button" data-operator>-</button>
+
+            <button type="button" data-number>1</button>
+            <button type="button" data-number>2</button>
+            <button type="button" data-number>3</button>
+            <button type="button" data-operator class="fold">+</button>
+            <button type="button" data-equals class="equal">=</button>
+
+            <button type="button" data-number>0</button>
+            <button type="button" data-number>00</button>
+            <button type="button" data-number>.</button>
+        </section>
+    </main>
+    <script src="main.js"> oneclik="insert()"</script>
+</body>
+</html>

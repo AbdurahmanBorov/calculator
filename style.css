@@ -1,0 +1,52 @@
+html {
+    height: 100%;
+  }
+  .main {
+    width: 400px;
+    font-size: 25px;
+    margin: auto;
+    border: 1px solid black;
+    background-color: rgb(236, 186, 47);
+    user-select: none;
+    border: 10px solid rgb(236, 186, 47);
+  }
+  .display {
+    height: 120px;
+    display: grid;
+    background-color: rgb(182, 174, 174);
+    margin-bottom: 10px;
+  }
+  .previous-operand {
+    text-align: right;
+    padding: 8px 7px;
+    background: none;
+    border: none;
+  }
+  .current-operand {
+    text-align: right;
+    padding: 0px 5px;
+    background: none;
+    font-size: 25px;
+  }
+  .keypad {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
+  .fold {
+    grid-column: 4;
+    grid-row: 4/6;
+    height: 154px;
+  }
+  .equal {
+    grid-column: 5;
+    grid-row: 4/6;
+    height: 154px;
+  }
+  button {
+    font-size: 20px;
+    background-color: rgb(218, 141, 0);
+    width: 75px;
+    height: 75px;
+    margin: 2px;
+    box-shadow: 4px black;
+  }
